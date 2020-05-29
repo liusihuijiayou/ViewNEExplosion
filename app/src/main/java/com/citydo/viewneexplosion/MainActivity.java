@@ -20,9 +20,7 @@ public class MainActivity extends Activity {
         ExplosionFiled explosionFiled=new ExplosionFiled(this,new FallingParticleFactory());
         explosionFiled.addListener(findViewById(R.id.text));
         explosionFiled.addListener(findViewById(R.id.iv_one));
-        
-         explosionFiled=new ExplosionFiled(this,new ExplodeParticleFactory());
-
+        explosionFiled=new ExplosionFiled(this,new ExplodeParticleFactory());
         explosionFiled.addListener(findViewById(R.id.iv_two));
 
     }
